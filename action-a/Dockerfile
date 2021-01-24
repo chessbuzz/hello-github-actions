@@ -10,5 +10,7 @@ COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 #chmod +x bin/docker-entrypoint.sh
 
+RUN ["chmod", "+x", "/entrypoint.sh"]
+
 
 
