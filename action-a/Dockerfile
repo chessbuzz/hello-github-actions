@@ -1,6 +1,6 @@
 # Container image that runs your code
-# FROM alpine:3.10
-FROM scratch
+FROM alpine:3.10
+# FROM scratch
 
 # make the directory [I added this]
 RUN mkdir -p /action/lib
