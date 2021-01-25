@@ -10,7 +10,7 @@ COPY entrypoint.sh /action/lib/entrypoint.sh
 
 # Code file to execute when the docker container starts up (`entrypoint.sh`)
 
-RUN ["chmod", "+x", "/entrypoint.sh"]
+RUN ["chmod", "+x", "/action/lib/entrypoint.sh"]
 
 ENTRYPOINT ["/action/lib/entrypoint.sh"]
 #chmod +x bin/docker-entrypoint.sh
